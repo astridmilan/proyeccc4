@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css.css" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <div class="principal">
+      <h1>Formulario</h1>
+
+      <!-- Escribiste from en vez de Form -->
+      <form action="" name="formulario" id="formulario">
+        <em>Nombre</em>
+        <br />
+        <input
+          class="text"
+          type="text"
+          name="nombre"
+          id="nombre"
+          maxlength="30"
+          placeholder="Escribe aqui tu nombre"
+        />
+        <br /><br />
+
+        <em>Apellido</em>
+        <br />
+        <input
+          class="text"
+          type="text"
+          name="apellido"
+          id="apellido"
+          maxlength="50"
+          placeholder="Escribe aqui tu apellido"
+        />
+        <br /><br />
+
+        <input type="radio" name="sexo" id="hombre" value="Hombre" /><samp
+          >Hombre</samp
+        >
+        <br /><br />
+
+        <input type="radio" name="sexo" id="mujer" value="Mujer" /><samp>Mujer</samp>
+        <br /><br />
+
+        <input type="checkbox" name="terminos" id="terminos" /><samp
+          >Terminos y Condiciones</samp
+        >
+        <br /><br />
+         
+        <!-- Te lo cambié por un boton pero es el mismo id  -->
+        <button id="btn">Enviar</button>
+
+        <!-- Anexé una etiqueta de parrafo para que pudieras visualizar el correcto relleno del formulario -->
+        <p id="aviso"></p>
+        <br /><br />
+      </form> 
+
+      <!-- Mucho ojo, habías colocado el script en esta parte de la etiqueta. Acuerdate que va antes de la etiqueta de cierre del BODY -->
+    </div>
+
+     <script src="./formulario.js"></script> 
+  </body>
+</html>

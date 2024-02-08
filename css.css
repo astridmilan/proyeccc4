@@ -1,0 +1,43 @@
+ *{
+        margin: 0.2vw;
+        padding: 0.2vw;
+        box-sizing: border-box;
+        text-align: center;
+}
+
+body{
+    /*background-image: url(1.jfif);*/
+    background-color: aliceblue;
+}
+.principal{
+    background-image: url(13.jfif);
+    width: 38vw;
+    height: 50vw;
+    margin-left: 30vw;
+    border-radius: 2vw;
+}
+h1{
+   /* margin-top: 5vw;*/
+   font-family: "CHICKEN Pie";
+   font-size: 3.5em;
+}
+em{
+    font-family: "Bread And Butter", bold;
+    font-size: 5em;
+}
+input{
+    height: 1.3vw;
+    width: 1.3vw;
+}
+.btn{
+    height: 2vw;
+    width: 8vw;
+}
+.text{
+    height: 2vw;
+    width: 10vw;
+}
+samp{
+    font-family: "Bread And Butter", bold;
+    font-size: 3.5em;
+}
